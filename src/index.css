@@ -1,0 +1,225 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+  
+body{
+  background-color: rgb(255, 255, 255);
+  
+  max-width: 800px;
+  margin: auto;
+}
+
+.header{
+  color: white;
+  display: flex;
+  padding: 15px;
+  font-size: 1.2rem;
+}
+
+.balance{
+  background: linear-gradient(to bottom, rgb(9, 0, 90), rgb(255, 255, 255));
+  height: 270px;
+  align-items: center;
+ 
+}
+
+.balanceHijo{
+  background-color: white;
+  width: 95%;
+  height: 170px;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  
+}
+
+.balance h3{
+ font-size: 1rem;
+ padding-left: 15px;
+ padding-top: 10px;
+}
+
+.balance h1{
+  
+  padding-left: 15px;
+ }
+
+.incomeExpense{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  
+}
+
+.incomeExpense div{
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+ 
+  
+}
+
+.incomeExpense p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.incomeExpense #gastos{
+  color: rgba(255, 0, 0, 0.973);
+}
+
+.transactionForm form{
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.input-group {
+  /* display: flex;
+  justify-content: center; */
+  width: 100%;
+  margin-bottom: 20px; 
+}
+
+.transactionForm form input{
+  height: 40px;
+  margin: auto;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  width: 30%;
+  justify-content: center;
+}
+
+.transactionForm form #Descripcion{
+  justify-content: center;
+  width: 65%;
+  margin-right: 5px;
+
+}
+
+
+.transactionForm form button{
+  display: flex;
+ margin: auto;
+ margin-top: 20px;
+ height: 40px;
+ width: 150px;
+ border: none;
+ align-items: center;
+ justify-content: center;
+ border-radius: 5px;
+ box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+ background-color: rgb(48, 25, 255);
+ color: white;
+ margin-bottom: 40px;
+
+ 
+}
+
+.transactionsList{
+  width: 95%;
+  margin: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 100px;
+  border-radius: 5px;
+}
+
+
+.contenedorInfo{
+  margin: auto;
+  width: 90%;
+  padding: 10px 0 10px 6px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.contenedorImg{
+  width: 40px;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin: auto;
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+.contenedorImg span{
+  font-size: 1.8rem;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.negative{
+  color: rgb(255, 50, 50);
+}
+
+.positive{
+  color: rgb(26, 219, 0);
+}
+
+.negativeCon{
+  background-color: rgb(255, 50, 50);
+}
+
+.positiveCon{
+  background-color:  rgb(26, 219, 0);
+}
+
+
+.transactionsList p{
+  display: flex;
+  align-items :center;
+  width: 180px;
+  color: rgba(0, 0, 0, 0.795);
+}
+
+.transactionsList span{
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.transactionsList button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  height: 20px;
+  width: 20px;
+  border-radius: 6px;
+  margin: auto;
+  margin-right: 0;
+  margin-left: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/*
+.linea{
+  display: flex;
+
+  width: 90%;
+ 
+  border-bottom: 1.5px solid #00000033;
+  
+}
+*/
